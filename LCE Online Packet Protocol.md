@@ -1,7 +1,5 @@
 # LCE Online Packet Protocol
 
-Oct 24, 2026 · @Tate
-
 ## Overview
 
 The Windows64 build speaks a Java Edition 1.6-era packet protocol (one-byte packet IDs, big-endian fields) wrapped in 4-byte length-prefixed TCP frames. 4J added about 30 console-only packets on top of it. No public documentation of this protocol exists, so everything here is read from the MinecraftConsoles source (`minecraft-console`, commit `09df8928`, May 2026).
